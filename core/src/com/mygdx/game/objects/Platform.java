@@ -2,11 +2,12 @@ package com.mygdx.game.objects;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.utils.Pool;
 import com.mygdx.game.config.GameConfig;
 
 import java.util.Random;
 
-public class Platform extends GameObject {
+public class Platform extends GameObject implements Pool.Poolable {
 
     public static float NEW_HEIGHT = 0;
     public static int HIGHEST_PLATFORM = 4; //index of currently highest platform
@@ -26,5 +27,13 @@ public class Platform extends GameObject {
     @Override
     public void draw(SpriteBatch batch) {
         img.draw(batch, 1f);
+    }
+
+    @Override
+    public void reset() {
+        bounds.x = rnd.nextFloat() * (GameConfig.WORLD_WIDTH - 1);
+        bounds.y = NEW_HEIGHT;
+        bounds.width = 1;
+        bounds.height = 0.5f;
     }
 }
