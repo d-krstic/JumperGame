@@ -1,0 +1,122 @@
+
+gameplay.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+background
+  rotate: false
+  xy: 2, 480
+  size: 800, 533
+  orig: 800, 533
+  offset: 0, 0
+  index: -1
+black
+  rotate: false
+  xy: 2, 2
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+enemy1
+  rotate: false
+  xy: 2, 35
+  size: 732, 443
+  orig: 732, 443
+  offset: 0, 0
+  index: -1
+menu_background
+  rotate: false
+  xy: 736, 255
+  size: 271, 223
+  orig: 271, 223
+  offset: 0, 0
+  index: -1
+particle
+  rotate: false
+  xy: 804, 981
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+gameplay2.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+enemy3
+  rotate: false
+  xy: 2, 2
+  size: 435, 443
+  orig: 435, 443
+  offset: 0, 0
+  index: -1
+enemy4
+  rotate: false
+  xy: 439, 2
+  size: 435, 443
+  orig: 435, 443
+  offset: 0, 0
+  index: -1
+jumper
+  rotate: false
+  xy: 628, 447
+  size: 381, 443
+  orig: 381, 443
+  offset: 0, 0
+  index: -1
+platform1
+  rotate: false
+  xy: 2, 447
+  size: 624, 443
+  orig: 624, 443
+  offset: 0, 0
+  index: -1
+
+gameplay3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+enemy2
+  rotate: false
+  xy: 439, 2
+  size: 403, 443
+  orig: 403, 443
+  offset: 0, 0
+  index: -1
+enemy5
+  rotate: false
+  xy: 2, 447
+  size: 435, 443
+  orig: 435, 443
+  offset: 0, 0
+  index: -1
+enemy6
+  rotate: false
+  xy: 2, 2
+  size: 435, 443
+  orig: 435, 443
+  offset: 0, 0
+  index: -1
+enemy7
+  rotate: false
+  xy: 439, 447
+  size: 435, 443
+  orig: 435, 443
+  offset: 0, 0
+  index: -1
+
+gameplay4.png
+size: 512, 512
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+enemy8
+  rotate: false
+  xy: 2, 2
+  size: 403, 443
+  orig: 403, 443
+  offset: 0, 0
+  index: -1
